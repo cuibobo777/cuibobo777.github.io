@@ -33,6 +33,7 @@ export default defineConfig({
 
      // 页脚
      footer: {
+      message: 'Released under the MIT License.',
       copyright: "Copyright © 2021~2023 加一份脆啵啵",
     },
   }
