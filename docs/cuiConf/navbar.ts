@@ -3,23 +3,32 @@ import { DefaultTheme } from "vitepress";
 export const nav: DefaultTheme.NavItem[] = [
   {
     text: '🍿首页',
-    link: '/'
+    link: '/',
+    activeMatch: '/'
+  },
+  {
+    text: '🍔关于我',
+    link: '/about',
+    activeMatch: '/about'
   },
   {
     text: '🍡Vue记录',
     items: [
         {
             text: '🎉基础练习',
-            link: '/vue/Practice'
+            link: 'posts/vue/Practice',
+            activeMatch: 'posts/vue/Practice'
         },
         {
             text: '🎈实践项目',
-            link: '/vue/Projects'
+            link: 'posts/vue/Projects',
+            activeMatch: 'posts/vue/Practice'
         }
     ]
   },
   {
     text: '🌈杂谈',
-    link: '/essay'
+    link: '/essay',
+    activeMatch: '/essay'
   }
 ]

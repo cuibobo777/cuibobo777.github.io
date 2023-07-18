@@ -3,6 +3,8 @@ import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style/style.css'
 import './style/rainbow.css'
+import { inBrowser } from 'vitepress'
+import busuanzi from 'busuanzi.pure.js'
 
 export default {
   extends: Theme,
@@ -12,6 +14,10 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    if (inBrowser) {
+      router.onAfterRouteChanged = () => {
+        busuanzi.fetch()
+      }
+    }
   }
 }

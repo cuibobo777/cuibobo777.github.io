@@ -16,18 +16,25 @@ hero:
       alt: 卡比
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 探索
+      link: /about/me
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 进入我的Github
+      link: https://github.com/cuibobo777
 
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: '/'
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<!-- 自定义组件 -->
+<script setup>
+import count from './.vitepress/components/count.vue';
+</script>
+
+<count />

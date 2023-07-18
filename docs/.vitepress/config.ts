@@ -14,8 +14,15 @@ export default defineConfig({
   description: "这是一个个人博客网站",
   themeConfig: {
     logo: '/imgs/favicon.png',
+    lastUpdatedText: '上次更新',
+    outlineTitle: '当前页面',
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
+    // 文章页脚下一页
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
 
     sidebar: [
       {
