@@ -8,27 +8,27 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: '🍔关于我',
-    link: '/about',
+    link: '/about/me',
     activeMatch: '/about'
   },
   {
-    text: '🍡Vue记录',
+    text: '🍡笔记',
     items: [
         {
-            text: '🎉基础练习',
-            link: 'posts/vue/Practice',
-            activeMatch: 'posts/vue/Practice'
+            text: '🎉前端笔记',
+            link: 'posts/web/index',
+            activeMatch: 'posts/web'
         },
         {
-            text: '🎈实践项目',
-            link: 'posts/vue/Projects',
-            activeMatch: 'posts/vue/Practice'
+            text: '🎈后端笔记',
+            link: 'posts/backend/index',
+            activeMatch: 'posts/backend'
         }
     ]
   },
   {
     text: '🌈杂谈',
-    link: '/essay',
+    link: '/essay/index',
     activeMatch: '/essay'
   }
 ]

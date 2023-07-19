@@ -135,7 +135,12 @@
 
  .VPNavBarTitle {
    font-family: "Magiera";
+   color: var(--vp-c-brand);
  }
+
+ .VPNavBarTitle .title {
+  color: var(--vp-c-brand);
+}
  
  .VPHero .name {
   font-family: "XinYeNianTi";

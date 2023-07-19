@@ -23,13 +23,21 @@ hero:
       link: https://github.com/cuibobo777
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: '/'
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📚
+    title: 前端学习
+    details: web的世界多姿多彩，探索中总能记录些什么
+    link: '/posts/web/'
+    linkText: '看看'
+  - icon: 🧩
+    title: 杂谈
+    details: 自己总是在连接，在交换，混乱而统一
+    link: '/essay/'
+    linkText: '谈谈'
+  - icon: ☃
+    title: 后端学习
+    details: Do you want to build a snowman?
+    link: '/posts/backend/'
+    linkText: Come on let's go and play!
 ---
 
 <!-- 自定义组件 -->
