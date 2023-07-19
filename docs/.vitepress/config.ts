@@ -23,6 +23,10 @@ export default defineConfig({
     },
 
     sidebar: sidebar,
+    outline: {
+      level: [2, 6],
+      label: '目录'
+    },
 
     socialLinks: [{ icon: "github", link: "https://github.com/cuibobo777" }],
 
