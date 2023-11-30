@@ -19,7 +19,7 @@ export const sidebar: DefaultTheme.Sidebar = {
             items: [
                 {
                     text: '浏览器渲染原理',
-                    link: '/posts/web/brower/b_001_browserRendering'
+                    link: '/posts/web/browser/b_001_browserRendering'
                 }
             ]
         }
