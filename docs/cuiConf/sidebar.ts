@@ -12,6 +12,16 @@ export const sidebar: DefaultTheme.Sidebar = {
                     link: '/posts/web/github/g_001_workflows'
                 }
             ]
+        },
+        {
+            text: 'brower',
+            collapsed: true,
+            items: [
+                {
+                    text: '浏览器渲染原理',
+                    link: '/posts/web/brower/b_001_browerRendering'
+                }
+            ]
         }
     ],
     '/posts/backend/': [],
