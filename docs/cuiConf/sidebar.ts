@@ -14,12 +14,12 @@ export const sidebar: DefaultTheme.Sidebar = {
             ]
         },
         {
-            text: 'brower',
+            text: 'browser',
             collapsed: true,
             items: [
                 {
                     text: '浏览器渲染原理',
-                    link: '/posts/web/brower/b_001_browerRendering'
+                    link: '/posts/web/brower/b_001_browserRendering'
                 }
             ]
         }
