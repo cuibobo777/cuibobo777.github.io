@@ -14,7 +14,7 @@ export const sidebar: DefaultTheme.Sidebar = {
             ]
         },
         {
-            text: 'browser',
+            text: '浏览器',
             collapsed: true,
             items: [
                 {
@@ -25,4 +25,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         }
     ],
     '/posts/backend/': [],
+    '/posts/algorithm': [
+        {
+            text: '两数相加',
+            link: '/posts/algorithm/l_001_addTwoNumbers'
+        }
+    ]
 }
