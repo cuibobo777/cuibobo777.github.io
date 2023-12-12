@@ -29,6 +29,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
             text: '两数相加',
             link: '/posts/algorithm/l_001_addTwoNumbers'
+        },
+        {
+            text: '无重复字符的最长子串',
+            link: '/posts/algorithm/l_002_longString'
         }
     ]
 }
