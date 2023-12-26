@@ -30,6 +30,12 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/cuibobo777" }],
 
+    // footerConfig: {
+    //   showFooter: true, // 是否显示页脚
+    //   icpRecordCode: '豫ICP备2022002496号-1', // ICP备案号
+    //   publicSecurityRecordCode: '豫ICP备2022002496号', // 联网备案号
+    //   copyright: `Copyright © 2019-${new Date().getFullYear()} cuibobo777` // 版权信息
+    // }
     // 页脚
     footer: {
       message: "Released under the MIT License.",

@@ -5,12 +5,14 @@ import './style/style.css'
 import './style/rainbow.css'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
+import footer from '../components/footer.vue'
 
 export default {
   extends: Theme,
   Layout: () => {
     return h(Theme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      // 'layout-bottom': () => h(footer)
     })
   },
   enhanceApp({ app, router, siteData }) {
