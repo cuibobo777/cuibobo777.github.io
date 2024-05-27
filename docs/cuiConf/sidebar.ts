@@ -22,6 +22,16 @@ export const sidebar: DefaultTheme.Sidebar = {
                     link: '/posts/web/browser/b_001_browserRendering'
                 }
             ]
+        },
+        {
+            text: 'VUE',
+            collapsed: true,
+            items: [
+                {
+                    text: 'React, vue2, vue3 Diff 算法的区别',
+                    link: '/posts/web/vue/v_001_diff _vue_react'
+                }
+            ]
         }
     ],
     '/posts/backend/': [],

@@ -5,7 +5,7 @@ import './style/style.css'
 import './style/rainbow.css'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
-import footer from '../components/footer.vue'
+// import footer from '../components/footer.vue'
 
 export default {
   extends: Theme,
