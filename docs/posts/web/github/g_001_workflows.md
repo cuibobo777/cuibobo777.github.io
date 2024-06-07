@@ -2,10 +2,11 @@
 tag: vite 自动化构建
 ---
 
-#### workflows Deploy,yml 配置
+# workflows Deploy,yml 配置
 
-在.github/workflows/deploy.yml中
+在`.github/workflows/deploy.yml`中
 
+::: code-group
 ```yml
 name: Deploy
 
@@ -33,13 +34,12 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
-
-
 ```
+:::
 
 #### 可能会出现的错误
 
-Action failed with "The process '/usr/bin/git' failed with exit code 128"
+>Action failed with "The process '/usr/bin/git' failed with exit code 128"
 
 #### 解决方法
 
