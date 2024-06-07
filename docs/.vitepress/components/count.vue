@@ -8,9 +8,9 @@
   <div class="access-count">
     <div class="panel-area">
       <section class="panel">
-        <h2>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</h2>
+        <div class="text">本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
         <div style="font-size: 1.5rem;">🙋🏻‍♂️</div>
-        <h2>本站访客数 <span id="busuanzi_value_site_uv" /> 人次</h2>
+        <div class="text">本站访客数 <span id="busuanzi_value_site_uv" /> 人次</div>
       </section>
     </div>
   </div>
@@ -20,7 +20,7 @@
 
 <style lang="less" scoped>
 .access-count {
-  padding: 0 64px;
+  // padding: 0 64px;
   margin-top: 48px;
   .panel-area {
     background-color: var(--vp-c-bg-soft);
@@ -34,7 +34,7 @@
         justify-content: space-between;
         padding: 12px 24px;
         align-items: center;
-        h2 {
+        .text {
             font-weight: 600;
             line-height: 24px;
             font-size: 16px;
